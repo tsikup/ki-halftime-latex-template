@@ -9,9 +9,8 @@ jobs:
       - name: Compile main.tex
         uses: dante-ev/latex-action@latest
         with:
-          root_file: main.tex
+          root_file: main_defaultfonts.tex
           compiler: lualatex
-          extra_system_packages: ttf-mscorefonts-installer
           args:
       # - name: biber main
       #   uses: dante-ev/latex-action@latest
@@ -41,5 +40,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PDF
-          path: example.pdf
+          path: main_notimes.pdf
     
