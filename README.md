@@ -8,7 +8,7 @@ The official MS Word template can be found at [https://staff.ki.se/doctoral-educ
 The template is used with LuaLaTeX compiler in Overleaf. Detailed instructions to use this template will follow in the coming months.
 
 # License
-The license of this work is CC0, which corresponds to "public domain".
+The license of this work is MIT
 
 ## Exceptions
 
