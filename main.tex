@@ -1,0 +1,136 @@
+\documentclass{kihalftime}
+
+\title{Half-time report}
+\author{\studentname}
+
+\begin{document}
+
+% %%%%%%%%%% %
+% TITLE PAGE %
+% %%%%%%%%%% %
+\maketitle
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=south east,yshift=1cm,xshift=-1.5cm]%
+        at (current page.south east)
+        {\includegraphics[height=4cm]{figures/ki_logo.png}};
+\end{tikzpicture}
+\newpage
+
+% %%%%%%%% %
+% TOC PAGE %
+% %%%%%%%% %
+\begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north west,yshift=-1cm,xshift=1.5cm]%
+        at (current page.north west)
+        {\includegraphics[height=4cm]{figures/ki_logo.png}};
+\end{tikzpicture}
+\vspace{2cm}
+\mylargesection*{Half-time report}
+\vspace{2cm}
+\tableofcontents
+\null\vfill
+\halftimedate
+\thispagestyle{empty}
+\newpage
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+% DO NOT WRITE TEXT IN THIS FILE %
+%  BUT RATHER \input TEXT FILES. %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+
+% %%%%%%%%%%%%%%%%% %
+% Literature Review %
+% %%%%%%%%%%%%%%%%% %
+\mysection{Literature Review}
+{
+\small
+\textit{[Write a literature review of your research area, approximately 8-10 pages. Please note that the references should be listed at the end of the report and is not included in the page limit.]}
+
+\noindent \textit{[Please note that the literature review should be uploaded as a PDF document for anti-plagiarism tool (iThenticate) examination as the basis for an instructive discussion on scientific writing between supervisor and student. This is a learning experience regarding scientific writing. For more information, please see the KI web page “Half-time review”.]}
+}
+
+\include*{text/0_0_abreviations}
+\include*{text/0_1_introduction}
+
+
+% %%%%%%%%%%%%%% %
+% Project Status %
+% %%%%%%%%%%%%%% %
+\newpage
+\mysection{Status report of the doctoral education project}
+{ \small \textit{[For each sub study describe what you have done so far, with respect to (a) planning, (b) data collection and analysis, and (c) eventual manuscript/publication:1-4 pages]}}
+
+\input{text/1_study_1}
+
+% %%%%%%%%%%%%%%% %
+% Degree Outcomes %
+% %%%%%%%%%%%%%%% %
+\newpage
+\mysection{Status report of progress towards the degree outcomes }
+{ \small \textit{[Fill in your present status regarding perceived degree of achievement of the doctoral degree outcomes defined by the Higher Education Ordinance. - Remember that the outcomes are not expected to be fully achieved until the time of the thesis defence.] }}
+
+\vspace{15pt}
+
+\input{text/2_1_knowledge_understanding}
+
+\input{text/2_2_proficiency_ability}
+
+\input{text/2_3_judgement_approach}
+
+% %%%%%%%%%%%%%% %
+% Remaining Plan %
+% %%%%%%%%%%%%%% %
+\newpage
+\mysection{Plan for the remaining doctoral education}
+{ \small \textit{[1-2 pages. Describe both research work and learning activities for the period from now to the thesis defence. Include a reflection over time plan to completion.]}}
+
+\input{text/3_remaining_plan}
+
+% %%%%%%%%%%%%%%%%%%%%%% %
+% Ethical Considerations %
+% %%%%%%%%%%%%%%%%%%%%%% %
+\newpage
+\mysection{Ethical considerations}
+{ \small \textit{
+[Reflect on possible ethical considerations connected to your research, for example short description of the ethical aspects including how those are taken care of. In addition, for each constituent paper (sub study) you should state
+\begin{itemize}
+    \item existing ethical permits (ref. no/”diarienummer”) 
+    \item whether there are plans to apply for ethical permits, or
+    \item reasons why ethical permits are not required]
+\end{itemize}
+}}
+
+\input{text/4_ethics}
+
+% %%%%%%%%%% %
+% References %
+% %%%%%%%%%% %
+\newpage
+\mysection{References}
+{ \small \textit{[Make a reference list. Include the references both from the literature review and any other section of the half-time report]}}
+
+
+% %%%%%%%%%% %
+% References %
+% %%%%%%%%%% %
+\newpage
+\section*{Attachments to the half-time report}
+\begin{itemize}
+    \item Copy of the individual study plan\footnote{If using the digital ISP-system: print a pdf from the ISP-system after a new revision has been initiated}
+    \item The research plan  
+    \item A Ladok transcript\footnote{A Ladok excerpt is not needed if using the digital ISP-system.} showing completed courses
+    \item Copy of ethical approval(s), if any (decision page only, not the application)
+    \item Publications and/or manuscripts that will form part of the thesis, if any
+\end{itemize}
+
+\subsubsection*{Also to be sent to the half-time committee:}
+\begin{itemize}
+    \item The document Information to the half-time committee (see KI web page “Half-time review”)
+    \item Copy of Form 5, Half-time review, part 1 completed 
+\end{itemize}
+
+% %%%%%%%%%%% %
+% END OF FILE %
+% %%%%%%%%%%% %
+\end{document}
