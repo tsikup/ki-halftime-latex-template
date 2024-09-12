@@ -1,4 +1,6 @@
 # Unofficial Karolinska Institutet PhD's Half-Time Report
+![Build Status](https://github.com/tsikup/ki-halftime-latex-template/actions/workflows/build.yml/badge.svg)
+
 This is an unofficial LaTeX template of the PhD's half-time report at Karolinska Institutet.
 
 The official MS Word template can be found at [https://staff.ki.se/doctoral-education/half-time-review](https://staff.ki.se/doctoral-education/half-time-review)
