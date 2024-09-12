@@ -14,7 +14,7 @@
 }
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{halftime}[2024/09/11 Half-time report class]
+\ProvidesClass{kihalftime}[2024/09/11 Half-time report class]
 
 \LoadClass{article}
 \RequirePackage{titlesec}
