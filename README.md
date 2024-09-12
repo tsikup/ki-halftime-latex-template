@@ -12,4 +12,4 @@ The license of this work is CC0, which corresponds to "public domain".
 
 The logos and related images are subject to other copyrights from other parties:
 
-`figures/ki_logo.png` are copyright of Karolinska Institutet. Refer to [https://staff.ki.se/tools-and-support/communication-tools-and-support/brand-platform-and-graphic-profile/karolinska-institutets-logo](https://staff.ki.se/tools-and-support/communication-tools-and-support/brand-platform-and-graphic-profile/karolinska-institutets-logo) for proper use.
+`figures/ki_logo.png` is under a copyright of Karolinska Institutet. Refer to [https://staff.ki.se/tools-and-support/communication-tools-and-support/brand-platform-and-graphic-profile/karolinska-institutets-logo](https://staff.ki.se/tools-and-support/communication-tools-and-support/brand-platform-and-graphic-profile/karolinska-institutets-logo) for proper use.
