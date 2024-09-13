@@ -28,17 +28,18 @@
 \RequirePackage{fontspec} % For custom fonts
 \RequirePackage{lastpage} % For page numbering
 \RequirePackage{tocloft} % For custom TOC
-\RequirePackage{tikz} 
+\RequirePackage{tikz}
 \RequirePackage{etoolbox} % For \foreach
 \RequirePackage{newclude} % For \include*
 \RequirePackage{enumitem} % For custom itemize
-\RequirePackage{hyperref} % For hyperlinks
 \RequirePackage{ifplatform} % For platform specific commands
-\RequirePackage{cleveref} % For clever references to figures, tables, etc.
-\RequirePackage{nameref} % For referencing unnumbered section names
+\RequirePackage{nameref} % For referencing section names
 \RequirePackage{booktabs} % For tables with better rules and spacing
 \RequirePackage{siunitx} % For SI units and number formatting
 \RequirePackage{acro} % For acronyms
+\RequirePackage{multirow} % For multirow in tables
+\RequirePackage{hyperref} % For hyperlinks
+\RequirePackage{cleveref} % For clever references to figures, tables, etc.
 
 % document size
 \geometry{

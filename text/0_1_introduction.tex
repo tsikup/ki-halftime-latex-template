@@ -11,20 +11,6 @@ Example citation \cite{Nobody06}
 
 This is a reference to \Cref{fig:example} using the cleveref package.
 
-\begin{table}[h]
-    \centering
-    \caption{Example table using the booktabs package.}
-    \begin{tabular}{lcccccl}
-        \toprule
-        & \multicolumn{3}{c}{$\tol=\tols$} & \multicolumn{3}{c}{$\tol=\told$}
-        \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
-                & $mv$  & Rel.~err & Time    & $mv$  & Rel.~err & Time\\\midrule
-        \trigmv    & 11034 & 1.3e-7 & 3.9 & 15846 & 2.7e-11 & 5.6 \\
-        \trigexpmv & 21952 & 1.3e-7 & 6.2 & 31516 & 2.7e-11 & 8.8 \\
-        \trigblock & 15883 & 5.2e-8 & 7.1 & 32023 & 1.1e-11 & 1.4e1\\
-        \expleja   & 11180 & 8.0e-9 & 4.3 & 17348 & 1.5e-11 & 6.6 \\\bottomrule
-    \end{tabular}
-\end{table}
-
+Use the booktabs package for creating tables.
 
 Example usage of siunitx package: \SI{1.23}{\meter\per\second}, \unit{kg.m.s^{-1}}, \num{3.45d-4}, \num{-e10}, \numlist{10;30;50;70}, \numproduct{10 x 30}, \numrange{10}{30}, \ang{10;11;12},
