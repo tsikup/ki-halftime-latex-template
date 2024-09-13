@@ -35,6 +35,7 @@
 \RequirePackage{hyperref} % For hyperlinks
 \RequirePackage{ifplatform} % For platform specific commands
 \RequirePackage{cleveref} % For clever references to figures, tables, etc.
+\RequirePackage{nameref} % For referencing section names
 \RequirePackage{booktabs} % For tables with better rules and spacing
 \RequirePackage{siunitx} % For SI units and number formatting
 \RequirePackage{acro} % For acronyms
