@@ -31,6 +31,7 @@
 \RequirePackage{newclude}
 \RequirePackage{enumitem}
 \RequirePackage{hyperref}
+\RequirePackage{cleveref}
 
 % document size
 \geometry{

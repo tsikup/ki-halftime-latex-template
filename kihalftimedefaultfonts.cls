@@ -31,6 +31,7 @@
 \RequirePackage{enumitem}
 \RequirePackage{hyperref}
 \RequirePackage{ifplatform}
+\RequirePackage{cleveref}
 
 % document size
 \geometry{
