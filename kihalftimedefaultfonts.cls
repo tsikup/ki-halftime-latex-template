@@ -17,21 +17,27 @@
 \ProvidesClass{kihalftimedefaultfonts}[2024/09/11 Half-time report class]
 
 \LoadClass{article}
-\RequirePackage{titlesec}
-\RequirePackage{geometry}
-\RequirePackage{fancyhdr}
-\RequirePackage{xcolor}
-\RequirePackage{graphicx}
-\RequirePackage{fontspec}
-\RequirePackage{lastpage}
-\RequirePackage{tocloft}
-\RequirePackage{tikz}
-\RequirePackage{etoolbox}
-\RequirePackage{newclude}
-\RequirePackage{enumitem}
-\RequirePackage{hyperref}
-\RequirePackage{ifplatform}
-\RequirePackage{cleveref}
+\RequirePackage{microtype} % For better typography
+\RequirePackage{titlesec} % For section formatting
+\RequirePackage{geometry} % For document size
+\RequirePackage{fancyhdr} % For headers and footers
+\RequirePackage{xcolor} % For colors
+\RequirePackage{graphicx} % For images
+\RequirePackage{subcaption} % For subfigures
+\RequirePackage{amsmath} % For math equations longer than one line
+\RequirePackage{fontspec} % For custom fonts
+\RequirePackage{lastpage} % For page numbering
+\RequirePackage{tocloft} % For custom TOC
+\RequirePackage{tikz} 
+\RequirePackage{etoolbox} % For \foreach
+\RequirePackage{newclude} % For \include*
+\RequirePackage{enumitem} % For custom itemize
+\RequirePackage{hyperref} % For hyperlinks
+\RequirePackage{ifplatform} % For platform specific commands
+\RequirePackage{cleveref} % For clever references to figures, tables, etc.
+\RequirePackage{booktabs} % For tables with better rules and spacing
+\RequirePackage{siunitx} % For SI units and number formatting
+\RequirePackage{acro} % For acronyms
 
 % document size
 \geometry{
@@ -89,7 +95,7 @@
     {\smalltitlessize\sffamily\selectfont \textit{Principle supervisor:} \supervisor, \supervisortitle \par}
     \foreach \x in \cosupervisors
     {
-       {\smalltitlessize\sffamily\selectfont \textit{Co-supervisor:} \detokenize\expandafter{\x} \par}
+      {\smalltitlessize\sffamily\selectfont \textit{Co-supervisor:} \x \par}
     }
     \vskip 2em%
     {\smalltitlessize Date of half-time review: \halftimedate \par}
